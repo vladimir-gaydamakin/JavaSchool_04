@@ -25,7 +25,7 @@ public class ReverseInteger {
         return (int) reversed;
     }
 
-    public static class IntegerOutOfBoundsException extends IllegalArgumentException {
+    public static class IntegerOutOfBoundsException extends RuntimeException {
         public IntegerOutOfBoundsException(String message) {
             super(message);
         }
