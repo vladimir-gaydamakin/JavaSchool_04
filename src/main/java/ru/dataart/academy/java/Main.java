@@ -9,7 +9,7 @@ public class Main {
             System.out.println(e.getMessage());
         }
         try {
-            System.out.println("Reverse integer works: " + reverseInteger.reverse(-456));
+            System.out.println("Reverse integer works: " + reverseInteger.reverse(456));
         } catch (ReverseInteger.IntegerOutOfBoundsException e) {
             System.out.println(e.getMessage());
         }
@@ -19,7 +19,7 @@ public class Main {
             System.out.println(e.getMessage());
         }
         try {
-            System.out.println("Reverse integer works for big positive value: " + reverseInteger.reverse(-2147483647));
+            System.out.println("Reverse integer works for big positive value: " + reverseInteger.reverse(2147483647));
         } catch (ReverseInteger.IntegerOutOfBoundsException e) {
             System.out.println(e.getMessage());
         }
